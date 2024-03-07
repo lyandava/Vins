@@ -1,0 +1,62 @@
+Servlets:
+---------
+Servlet technology is used to create a web application 
+(resides at server side and generates a dynamic web page).
+--> To Send and receive data on the web
+
+--> http stateless request and response: previously held communication b/w client and server not remembered
+
+--> Uses a reliable TCP connection eaither for Transfer/receiving data to/from client & Server
+
+--> Used as a communication channel/ Transmission Media b/w client & Server
+
+
+		http request-Resonse Model
+
+							http Reqs
+						|------------------->|
+				client	|					 |	Server
+						|<-------------------|
+						    http Resp
+							
+							
+	In General Servers Handles only Static web pages, It Doesn't handle dynamic web pages
+	
+	http Reqs
+	-------------
+	There are 4 elements in http requests
+	
+	1) key element of request stream
+	
+	2) http method GET or POST(action to be performed)
+	
+	3) webpage to access (URL)
+	
+	4) Form parameters
+	
+	
+	http Response
+	-------------
+	There are 4 elements in http requests
+	
+	1) key element of response stream
+	
+	2) A Status code (for whether the request was successful or not)   ex: http-404 : for request fail
+																		   http-200 : for request success
+	
+	3) content type(text/picture/html....)
+	
+	4) Content(Actual content)
+	
+	
+	We use 2 packages:
+		1. javax.servlet
+		2. javax.servlet.http 
+		Here 'x' means extension
+		
+		
+    Uses of Servlets:
+	------------------
+	--> To process/store the data submitted by an HTML Page
+	--> Provides Dynamic Contents
+	--> Used in the Cookies and session tracking
